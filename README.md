@@ -72,7 +72,8 @@ Import it in your main scss file:
     @import "seagull";
 
 ## Documentation
-Work in Progress 
+Work in Progress.
+
 You can find documentantion and examples  in the Mighty Seagull site.
 [Documentation w/ examples](https://retromaniacs.github.io/mighty-seagull)
 

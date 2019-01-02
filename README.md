@@ -14,14 +14,10 @@
 
   * [Description](#description)
   * [Installation](#installation)
-    * [First way](#first-way)     
-    * [Second way](#second-way)  
+    * [CSS](#css)     
+    * [SCSS](#scss)  
   * [Documentation](#documentation)  
   * [Examples](#examples)     
-    * [Example 1](#example-1)     
-    * [Example 2](#example-2)     
-    * [Example 3](#example-3)     
-    * [More examples](#more-examples)  
   * [Contributing](#contributing)  
   * [Issue Template](#issue-template)    
     * [Bug report](#bug-report)   
@@ -37,45 +33,52 @@
   
 ## Description
 
-A CSS & SASS Framework with both flex and classic grid system for responsive web sites and applications.
+A CSS & SCSS Framework with both flex and classic 12 column grid system for responsive web sites and applications.
 
 
 
 
 ## Installation
-This is the section of installation intructions. If is possible use more than one way.
+You can use Mighty Seagull with two ways. Use the CSS file or the SASS files.
+Clone the Mighty Seagull repo:
+
+    $ git clone https://github.com/retromaniacs/mighty-seagull.git
+or download zip from here:
+
+![download](https://user-images.githubusercontent.com/46247003/50601434-cef03500-0ebc-11e9-9c93-51e6e838e8e8.png)
+
+### CSS
+
+Use the dist/css/seagull.css version or dist/minified/seagull.min.css minified one by placing one of the following in your html head section. 
+
+    <link rel="stylesheet" href="dist/css/seagull.css">
+
+or
+
+    <link rel="stylesheet" href="dist/minified/seagull.min.css">
+
+> Note: Be carefull with the path of the file
 
 
-### First way
 
-Simple CSS 
+### SCSS
 
-### Second way
+Copy the seagull folder from src.
 
-SASS
+Paste it inside your SCSS folder.
+
+Import it in your main scss file:
+
+    @import "seagull";
 
 ## Documentation
 Work in Progress 
+You can find documentantion and examples  in the Mighty Seagull site.
+[Documentation w/ examples](https://retromaniacs.github.io/mighty-seagull)
 
 
 ## Examples
-This is the examples section.
-
-### Example 1
-
-First example
-
-### Example 2
-
-Second example
-
-### Example 3
-
-Third example
-
-### More examples
-
-More examples. This section is for external links of examples.
+You can find examples in the link provided in the documentation section.
 
 
 ## Contributing
@@ -120,7 +123,7 @@ If applicable, add screenshots to help explain your problem.
 **Desktop (please complete the following information):**
  - OS: [e.g. MACOS]
  - Browser [e.g. chrome, safari]
- - Version of Software or Programming Language [e.g. Crystal 0.27.0]
+ - Version of Mighty Seagull
 
 **Additional context**
 Add any other context about the problem here.

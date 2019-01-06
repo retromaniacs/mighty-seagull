@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-   <img src="https://user-images.githubusercontent.com/46247003/50578906-a29ad100-0e48-11e9-8f78-82873a68458f.png" alt="Mighty-Seagull" title="Mighty-Seagull" width="256px"/>
+   <img src="https://user-images.githubusercontent.com/46247003/50742829-c2e7d880-1218-11e9-9f0b-c4810e1743a2.png" alt="Mighty-Seagull" title="Mighty-Seagull" width="256px"/>
   <br>
 </h1>
 <p align="center">  
